@@ -67,8 +67,8 @@ cost:
     weight: 2140.4341585026104
 lbfgs:
   cold_start_n_iters: null
-  cost_convergence: 1.0e-11
-  cost_delta_threshold: 1.0e-11
+  cost_convergence: 1e-11
+  cost_delta_threshold: 1e-11
   cost_relative_threshold: 0.999
   debug_info:
     visual_traj: null
@@ -85,7 +85,7 @@ lbfgs:
   - 1.0502486637627748
   line_search_type: approx_wolfe
   min_iters: null
-  n_iters: 100
+  n_iters: 200
   n_problems: 1
   stable_mode: true
   step_scale: 0.98
