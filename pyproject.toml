@@ -21,6 +21,7 @@ extend-exclude = "deprecated/"
 [tool.setuptools_scm]
 version_scheme = "no-guess-dev"
 local_scheme = "dirty-tag"
+root = "../../../"
 
 [tool.isort]
 # see https://github.com/PyCQA/isort#multi-line-output-modes
